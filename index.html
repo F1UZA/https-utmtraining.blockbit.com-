@@ -1,2 +1,12 @@
-<h1>Takeover successful</h1>
-<p>This subdomain is now controlled via GitHub Pages.</p>
+<html>
+  <head>
+    <title>Takeover XSS PoC</title>
+  </head>
+  <body>
+    <h1>Subdomain Taken Over</h1>
+    <script>
+      alert("XSS PoC via Subdomain Takeover!");
+      // Em contexto real, aqui poderia ser document.cookie, phishing, etc.
+    </script>
+  </body>
+</html>
